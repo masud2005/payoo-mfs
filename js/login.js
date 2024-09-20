@@ -17,7 +17,7 @@ document.getElementById('login-btn').addEventListener('click', function(event){
     console.log(mobileNumber, pinNumber);
 
     // apply condition
-    if(mobileNumber === 5 && pinNumber === 1234){
+    if(mobileNumber === 1834140688 && pinNumber === 1234){
         console.log('right ache');
         window.location.href = './home.html'
     }
