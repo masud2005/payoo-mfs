@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Login Page</title>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="flex absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-1">
+                <div class="hero min-h-screen">
+                    <div class="hero-content w-fullflex-col lg:flex-row-reverse">
+                      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Mobile Number</span>
+                            </label>
+                            <input id="mobile-number" type="number" placeholder="Enter Your number" class="input input-bordered" required />
+                          </div>
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">4 Digit Pin</span>
+                            </label>
+                            <input id="pin-number" type="password" placeholder="Enter 4 DIgit Pin" class="input input-bordered" required />
+                          </div>
+                          <div class="form-control mt-6">
+                            <button id="login-btn" class="btn btn-primary">Login</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/login.js"></script>
+    <script src="./js/uitlities.js"></script>
+</body>
+</html>
